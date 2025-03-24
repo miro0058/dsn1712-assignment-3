@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.wrapper{
+    margin: 0 auto; 
+    max-width: 940px; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    justify-content: space-between;
+}
+
